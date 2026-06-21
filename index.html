@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Muhammad Abuzar — Data Scientist</title>
+<meta name="description" content="Portfolio of Muhammad Abuzar, BS Data Science student at University of Layyah and Data Scientist in training. C++ &amp; OOP, MS Office expert, AI tools certified." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#top">MA<span class="dot">.</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about" data-nav>About</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#certificates" data-nav>Certificates</a>
+      <a href="#contact" data-nav class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero__glow hero__glow--cyan"></div>
+    <div class="hero__glow hero__glow--amber"></div>
+
+    <div class="hero__grid">
+      <div class="hero__inner">
+        <p class="eyebrow load-in" style="--d:0">Data Scientist</p>
+        <h1 class="hero__name">
+          <span class="line-mask load-in" style="--d:1"><span>Muhammad</span></span>
+          <span class="line-mask load-in" style="--d:2"><span>Abuzar</span></span>
+        </h1>
+        <p class="hero__role load-in" style="--d:3">BS Data Science Student at University of Layyah</p>
+        <p class="hero__tagline load-in" style="--d:4">Compiling a foundation in logic, data and decision‑making — one semester, one certificate, one line of code at a time.</p>
+        <div class="hero__cta load-in" style="--d:5">
+          <a href="#certificates" class="btn btn--primary magnetic">View certificates</a>
+          <a href="#contact" class="btn btn--ghost magnetic">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero__visual load-in" style="--d:3">
+        <div class="hero__photo-wrap" id="photoTilt">
+          <img src="assets/profile/abuzar.jpg" alt="Portrait of Muhammad Abuzar" class="hero__photo">
+          <div class="hero__photo-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span>scroll</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v17M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <section id="about" class="about reveal">
+    <p class="eyebrow eyebrow--section">About</p>
+    <h2 class="section-title">Building a data‑first foundation, one semester at a time.</h2>
+    <div class="about__grid">
+      <p class="about__text">
+        I'm currently in my 3rd semester of a BS in Data Science at the University of Layyah,
+        building a foundation in programming, structured thinking and the tools that turn raw
+        information into decisions. I'm just as comfortable inside a C++ compiler, writing
+        object‑oriented code, as I am inside a polished Excel model or a PowerPoint deck —
+        and I'm actively exploring how AI tools like Claude can make real work faster, backed
+        by hands‑on certifications rather than just curiosity.
+      </p>
+      <div class="about__stats">
+        <div class="stat stagger" style="--i:0">
+          <span class="stat__value"><span data-countup data-target="3">0</span><small>/8</small></span>
+          <span class="stat__label">Current semester</span>
+        </div>
+        <div class="stat stagger" style="--i:1">
+          <span class="stat__value">2025–29</span>
+          <span class="stat__label">Session</span>
+        </div>
+        <div class="stat stagger" style="--i:2">
+          <span class="stat__value">IT</span>
+          <span class="stat__label">Department</span>
+        </div>
+        <div class="stat stagger" style="--i:3">
+          <span class="stat__value"><span data-countup data-target="4">0</span></span>
+          <span class="stat__label">Certifications earned</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education reveal">
+    <p class="eyebrow eyebrow--section">Education</p>
+    <h2 class="section-title">University of Layyah</h2>
+
+    <div class="education__card">
+      <div class="education__row">
+        <div class="education__field">
+          <span class="label">Program</span>
+          <p>BS Data Science (BSDS)</p>
+        </div>
+        <div class="education__field">
+          <span class="label">Faculty</span>
+          <p>Computing &amp; Engineering</p>
+        </div>
+        <div class="education__field">
+          <span class="label">Department</span>
+          <p>Information Technology</p>
+        </div>
+        <div class="education__field">
+          <span class="label">Session</span>
+          <p>2025 – 2029</p>
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress__label">
+          <span>Semester progress</span>
+          <span>03 / 08</span>
+        </div>
+        <div class="progress__track">
+          <div class="progress__fill" id="progressFill" data-target="37.5" style="width:0%"></div>
+        </div>
+        <div class="progress__ticks">
+          <span class="is-done">1</span><span class="is-done">2</span><span class="is-current">3</span>
+          <span>4</span><span>5</span><span>6</span><span>7</span><span>8</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills reveal">
+    <p class="eyebrow eyebrow--section">Skills</p>
+    <h2 class="section-title">What I bring to the table.</h2>
+
+    <div class="skills__grid">
+      <article class="skill-card stagger" style="--i:0">
+        <span class="skill-card__icon">&lt;/&gt;</span>
+        <h3>Programming &amp; CS Fundamentals</h3>
+        <ul class="tag-list">
+          <li>C++</li>
+          <li>Object‑Oriented Programming (OOP)</li>
+        </ul>
+      </article>
+
+      <article class="skill-card stagger" style="--i:1">
+        <span class="skill-card__icon">⌘</span>
+        <h3>Productivity Suite <span class="badge">Expert</span></h3>
+        <ul class="tag-list">
+          <li>Microsoft Word</li>
+          <li>Microsoft Excel</li>
+          <li>Microsoft PowerPoint</li>
+        </ul>
+      </article>
+
+      <article class="skill-card stagger" style="--i:2">
+        <span class="skill-card__icon">✺</span>
+        <h3>Professional &amp; AI Tools</h3>
+        <ul class="tag-list">
+          <li>Soft Skills &amp; Employability</li>
+          <li>Claude AI (101, Code 101, Cowork)</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="certificates" class="certificates reveal">
+    <p class="eyebrow eyebrow--section">Certificates</p>
+    <h2 class="section-title">Proof of work.</h2>
+
+    <div class="cert-grid">
+      <article class="cert-card stagger tilt" style="--i:0" data-img="assets/certs/cert-claude-101.jpg" data-title="Claude 101" data-issuer="Anthropic" data-date="2026">
+        <div class="cert-card__img"><img src="assets/certs/cert-claude-101.jpg" alt="Claude 101 certificate of completion" loading="lazy"></div>
+        <div class="cert-card__meta">
+          <h3>Claude 101</h3>
+          <p>Anthropic</p>
+        </div>
+      </article>
+
+      <article class="cert-card stagger tilt" style="--i:1" data-img="assets/certs/cert-claude-code-101.jpg" data-title="Claude Code 101" data-issuer="Anthropic" data-date="2026">
+        <div class="cert-card__img"><img src="assets/certs/cert-claude-code-101.jpg" alt="Claude Code 101 certificate of completion" loading="lazy"></div>
+        <div class="cert-card__meta">
+          <h3>Claude Code 101</h3>
+          <p>Anthropic</p>
+        </div>
+      </article>
+
+      <article class="cert-card stagger tilt" style="--i:2" data-img="assets/certs/cert-claude-cowork.jpg" data-title="Introduction to Claude Cowork" data-issuer="Anthropic" data-date="2026">
+        <div class="cert-card__img"><img src="assets/certs/cert-claude-cowork.jpg" alt="Introduction to Claude Cowork certificate of completion" loading="lazy"></div>
+        <div class="cert-card__meta">
+          <h3>Intro to Claude Cowork</h3>
+          <p>Anthropic</p>
+        </div>
+      </article>
+
+      <article class="cert-card stagger tilt" style="--i:3" data-img="assets/certs/cert-soft-skills.jpg" data-title="Soft Skills Training" data-issuer="ICMPD & OEC" data-date="Jan 30, 2026">
+        <div class="cert-card__img"><img src="assets/certs/cert-soft-skills.jpg" alt="Soft Skills Training certificate of completion" loading="lazy"></div>
+        <div class="cert-card__meta">
+          <h3>Soft Skills Training</h3>
+          <p>ICMPD &amp; OEC</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact reveal">
+    <p class="eyebrow eyebrow--section">Contact</p>
+    <h2 class="section-title">Let's connect.</h2>
+    <p class="contact__text">
+      Open to internships, entry‑level data roles, and collaborations where structured thinking
+      and a fast learning curve are worth more than a long resume.
+    </p>
+    <div class="contact__links">
+      <a href="mailto:your.email@example.com" class="btn btn--primary">Email me</a>
+      <a href="#" class="btn btn--ghost" data-placeholder>LinkedIn</a>
+      <a href="#" class="btn btn--ghost" data-placeholder>GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Muhammad Abuzar. Built with intent.</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <figure>
+    <img id="lightboxImg" src="" alt="">
+    <figcaption>
+      <span id="lightboxTitle"></span>
+      <span id="lightboxMeta"></span>
+    </figcaption>
+  </figure>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
